@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4; /* Optional: sets a light background */
+}
+
+.border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc; /* Optional: adds a border around the card */
+    padding: 20px;
+    border-radius: 8px; /* Optional: rounds the corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow */
+    background-color: #fff; /* Card background */
+    width: 300px; /* Fixed card width */
+}
+
+.border img {
+    width: 100px; /* Adjust size of the image */
+    height: 100px; /* Keeps the image square */
+    object-fit: cover; /* Ensures the image fits neatly */
+    border-radius: 50%; /* Makes the image circular */
+}
